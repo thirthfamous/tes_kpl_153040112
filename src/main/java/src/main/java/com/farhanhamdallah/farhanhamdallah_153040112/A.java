@@ -6,5 +6,6 @@ public class A {
 		Argument argB = new Argument("a", b);
 		Argument argC = new Argument("a", c);
 		Expression exp = new Expression("(a+b)*c", argB, argA, argC);
+		return exp.calculate();
 	}
 }
